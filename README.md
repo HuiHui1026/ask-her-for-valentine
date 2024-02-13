@@ -1,31 +1,8 @@
-# Valentine Invitation Website
+# React + Vite
 
-Welcome to my Valentine Invitation website! 🌹❤️
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
+Currently, two official plugins are available:
 
-This website is a special invitation for Valentine's Day, designed to spread love and joy. You can [visit the live demo](https://vapp-mu.vercel.app/) to experience the invitation.
-
-## Features
-
-- 💖 Attractive and personalized Valentine's Day design, with a touch of humor.
-- 💌 Heartfelt invitation for your loved ones, that'll compell them to say a yes (quite litreally).
-- 🌐 Responsive and accessible on various devices.
-
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vishxlshxrma/Valentine_Invitation.git
-   ```
-
-2. Open the file and build the install the react dependencies and then run the project.
-
-3. Customize the invitation with your own details and message.
-
-## Contributing
-
-If you'd like to contribute or improve the invitation, feel free to submit a pull request. Your contributions are greatly appreciated!
-
-Enjoy spreading love with your Valentine's Day invitation! ❤️🎉
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
