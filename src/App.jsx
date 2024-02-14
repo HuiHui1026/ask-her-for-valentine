@@ -3,11 +3,11 @@ import "./App.css";
 
 const phrases = [
   "No",
-  "Yaar dekh lo na, please Aastha?",
-  "Ese mat karo yaar Aastha😭",
+  "Yaar dekh lo na, please Sharon?",
+  "Ese mat karo yaar Sharon😭",
   "pleaseeeeee maanjaaaa meri jaan 🥺",
-  "Aastha mera dil na todo aaj 💔",
-  " Jaana mai katti ho jaaaugaaaaa 😡😤",
+  "Sharon mera dil na todo aaj 💔",
+  "Jaaa mai katti ho jaaaugaaaaa 😡😤",
   "Kitni besharam ho tum ? Abhi tk hnn nhi ki ab krdo chalo 🥰",
   "Kuch toh sharam karo, mere pyaar ki 😡😡😡😡😡😡😡",
   "Tumse ek hnn nahi ho rahi mujhe 😞😞",
@@ -17,7 +17,7 @@ const phrases = [
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 10 + 16;
+  const yesButtonSize = noCount * 20 + 16;
 
   function handleNoClick() {
     setNoCount(noCount + 1);
