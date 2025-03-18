@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="Valentine-Container">
-      {yesPressed ? (
+      {!yesPressed ? (
         <>
           <img
             alt="bears kissing"
