@@ -3,15 +3,16 @@ import "./App.css";
 
 const phrases = [
   "No",
-  "Yaar dekh lo na, please Sharon?",
-  "Ese mat karo yaar Sharon😭",
-  "pleaseeeeee maanjaaaa meri jaan 🥺",
-  "Sharon mera dil na todo aaj 💔",
-  "Jaaa mai katti ho jaaaugaaaaa 😡😤",
-  "Kitni besharam ho tum ? Abhi tk hnn nhi ki ab krdo chalo 🥰",
+  "Yaar maan jaao na, please jaan",
+  "Itna bhi mt gussa hou 😭",
+  "pleaseeeeee maanjaaaao meri jaan 🥺",
+  "Radhikaaaa ese na kro :(",
+  "Jaaao mai hi katti ho jaaaugaaaaa 😡😤",
+  "Kitni besharam ho tum ? Abhi tk maani nhi ? maan jaao chlo 🥰",
   "Kuch toh sharam karo, mere pyaar ki 😡😡😡😡😡😡😡",
   "Tumse ek hnn nahi ho rahi mujhe 😞😞",
-  "Ab hnn krna hi hoga wrna tum moti ho jaaogi 🥰"
+  "Is radhika paglu ki baaat maan jaaao wrna......",
+  "Ab manna hi hoga tmko, wrna moti ho jaaogi 🥰"
 ];
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
             alt="bears kissing"
             src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
           />
-          <div className="text">Yay! Good Decision. 😘</div>
+          <div className="text">Yay! Good girl. 😘</div>
         </>
       ) : (
         <>
@@ -43,7 +44,7 @@ function App() {
             alt="bear with hearts"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <div className="text">Will you be my Valentine?</div>
+          <div className="text">Abhi bhi gussa ho darling?</div>
           <div>
             <button
               className="yesButton"
