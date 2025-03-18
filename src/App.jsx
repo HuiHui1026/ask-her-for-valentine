@@ -17,7 +17,7 @@ const phrases = [
 
 function App() {
   const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
+  const [yesPressed, setYesPressed] = useState(true);
   const yesButtonSize = noCount * 20 + 16;
 
   function handleNoClick() {
@@ -48,12 +48,13 @@ function App() {
           <div>
             <button
               className="yesButton"
-              style={{ fontSize: yesButtonSize }}
-              onClick={() => setYesPressed(true)}
+              onClick={handleNoClick} 
             >
               Yes
             </button>
-            <button onClick={handleNoClick} className="noButton">
+            <button
+              onClick={() => setYesPressed(false)} 
+              className="noButton">
               {getNoButtonText()}
             </button>
           </div>
