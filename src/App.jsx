@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 const phrases = [
-  "No",
+  "Yes",
   "Yaar maan jaao na, please jaan",
   "Itna bhi mt gussa hou 😭",
   "pleaseeeeee maanjaaaao meri jaan 🥺",
@@ -50,12 +50,12 @@ function App() {
               className="yesButton"
               onClick={handleNoClick} 
             >
-              Yes
+              {getNoButtonText()}
             </button>
             <button
               onClick={() => setYesPressed(false)} 
               className="noButton">
-              {getNoButtonText()}
+              No
             </button>
           </div>
         </>
